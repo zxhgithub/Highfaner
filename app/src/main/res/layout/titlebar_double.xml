@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorTitleBar"
+        android:layout_height="48dip">
+        <LinearLayout
+            android:layout_width="48dip"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/btn_back"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_left"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_content_left"
+                android:textSize="18sp"
+                android:text="私信"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:textColor="@color/colorWhite"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_content_right"
+                android:textSize="18sp"
+                android:text="系统"
+                android:gravity="center"
+                android:layout_marginLeft="36dp"
+                android:textColor="@color/colorTitleBar2"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

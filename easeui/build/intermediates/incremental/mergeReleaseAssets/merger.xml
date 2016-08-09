@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\Perosion\easemob-sdk-3.1.4\examples\Highfaner\easeui\assets"/><source path="E:\Perosion\easemob-sdk-3.1.4\examples\Highfaner\easeui\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="E:\Perosion\easemob-sdk-3.1.4\examples\Highfaner\easeui\build-types\release\assets"/></dataSet></merger>
